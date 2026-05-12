@@ -1,73 +1,38 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="utf-8">
-  <title>FX BALLÉRY</title>
+<style>
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #111;
+  color: white;
+  text-align: center;
+}
 
-  <style>
-    body {
-      margin: 0;
-      height: 100vh;
+.title {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  margin: 0;
+}
 
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+.subtitle {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  font-style: italic;
+  margin-top: 12px;
+  opacity: 0.9;
+}
 
-      background: #111;
-      color: white;
-
-      text-align: center;
-    }
-
-    /* TITRE PRINCIPAL */
-    .title {
-      font-family: Helvetica, Arial, sans-serif;
-      font-size: 64px;
-      font-weight: 700;
-      letter-spacing: -51px;
-      margin: 0;
-      line-height: 0.95;
-    }
-
-    /* SOUS-TITRE */
-    .subtitle {
-      font-family: "Mrs Eaves", "Times New Roman", serif;
-      font-size: 16px;
-      font-style: italic;
-      margin-top: 12px;
-      letter-spacing: 0.5px;
-      opacity: 0.9;
-    }
-
-    /* BOUTON */
-    a {
-      margin-top: 20px;
-      font-family: Helvetica, Arial, sans-serif;
-      font-size: 14px;
-      color: white;
-      text-decoration: none;
-      border-bottom: 1px solid white;
-      padding-bottom: 2px;
-    }
-
-    a:hover {
-      opacity: 0.6;
-    }
-  </style>
-</head>
-
-<body>
-
-  <h1 class="title">FX BALLÉRY</h1>
-
-  <p class="subtitle">
-    Portfolio and Mr and Ms Evans
-  </p>
-
-  <a href="portfolio.pdf" target="_blank">
-    Voir le portfolio
-  </a>
-
-</body>
-</html>
+a {
+  margin-top: 20px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: white;
+  text-decoration: none; /* 👈 enlève soulignement */
+  border-bottom: none;
+}
+</style>
